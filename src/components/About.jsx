@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id="sobre" className="pt-24 pb-16 bg-white relative">
+    <section id="sobre" className="pt-16 pb-12 bg-white relative">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Avatar Circular roxo igual o da foto */}
