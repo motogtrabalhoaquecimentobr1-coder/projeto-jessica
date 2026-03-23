@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Professora Nome | Atividades Pedagógicas",
+  title: "Professora Jéssica Belão | Atividades Pedagógicas",
   description: "Catálogo de atividades pedagógicas criativas e lúdicas prontas para impressão e uso em sala de aula.",
 };
 
