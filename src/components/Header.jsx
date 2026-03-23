@@ -15,13 +15,6 @@ export default function Header() {
             <Link href="#sobre" className="text-gray-400 hover:text-[#3730A3] transition-colors font-semibold">Sobre</Link>
             <Link href="#atividades" className="text-gray-400 hover:text-[#3730A3] transition-colors font-semibold">Atividades</Link>
           </nav>
-          
-          <div className="hidden md:block">
-            {/* Um botão fantasma branco suave para o logo do WhatsApp ou contato leve, conforme imagem */}
-            <div className="inline-flex items-center px-6 py-2.5 border border-white/60 text-sm font-bold rounded-full text-white bg-white/10 backdrop-blur-md shadow-sm">
-              <span className="opacity-70">Contato Rápido</span>
-            </div>
-          </div>
         </div>
       </div>
     </header>
