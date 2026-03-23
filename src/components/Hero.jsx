@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section id="inicio" className="relative bg-gradient-to-r from-[#FDE8F3] via-[#F2EEFA] to-[#E7F6FD] pt-40 pb-24 lg:pt-52 lg:pb-36 overflow-hidden flex flex-col items-center justify-center">
+    <section id="inicio" className="relative bg-gradient-to-r from-[#FDE8F3] via-[#F2EEFA] to-[#E7F6FD] pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden flex flex-col items-center justify-center">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center flex flex-col items-center">
         
         {/* Badge superior igual a imagem */}
@@ -19,7 +19,7 @@ export default function Hero() {
         </p>
         <Link 
           href="#atividades" 
-          className="inline-flex items-center px-10 py-4 border-2 border-white/60 text-lg font-bold rounded-full shadow-sm text-white bg-white/20 backdrop-blur-md hover:bg-white/40 hover:scale-105 transition-all duration-300"
+          className="inline-flex items-center px-10 py-4 border-2 border-transparent text-lg font-bold rounded-full shadow-lg text-white bg-[#3730A3] hover:bg-[#2c2680] hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
         >
           Ver atividades
         </Link>
