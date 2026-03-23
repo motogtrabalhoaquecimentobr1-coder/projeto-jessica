@@ -2,27 +2,32 @@ import Link from 'next/link';
 
 export default function Hero() {
   return (
-    <section id="inicio" className="relative bg-gradient-to-br from-pastel-pink/20 via-pastel-bg to-pastel-blue/20 pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-main-text tracking-tight mb-6">
+    <section id="inicio" className="relative bg-gradient-to-r from-[#FDE8F3] via-[#F2EEFA] to-[#E7F6FD] pt-40 pb-24 lg:pt-52 lg:pb-36 overflow-hidden flex flex-col items-center justify-center">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center flex flex-col items-center">
+        
+        {/* Badge superior igual a imagem */}
+        <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-[#fce4ee] text-[#b45b85] text-sm font-semibold mb-8 shadow-sm">
+          <span>✨</span> Materiais pedagógicos
+        </div>
+
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#3730A3] tracking-tight mb-6 leading-tight">
           Atividades criativas prontas <br className="hidden sm:block" />
-          <span className="text-pastel-pink">para sua sala de aula</span>
+          para sua sala de aula
         </h1>
-        <p className="mt-4 max-w-2xl mx-auto text-xl text-main-sec mb-10">
+        <p className="mt-4 max-w-xl mx-auto text-xl text-gray-500 mb-12 font-medium">
           Materiais pedagógicos pensados com carinho para facilitar o seu dia a dia e encantar seus alunos.
         </p>
         <Link 
           href="#atividades" 
-          className="inline-flex items-center px-8 py-4 border border-transparent text-lg font-medium rounded-full shadow-sm text-white bg-pastel-pink hover:bg-opacity-90 hover:scale-105 transition-all duration-300"
+          className="inline-flex items-center px-10 py-4 border-2 border-white/60 text-lg font-bold rounded-full shadow-sm text-white bg-white/20 backdrop-blur-md hover:bg-white/40 hover:scale-105 transition-all duration-300"
         >
-          Ver Atividades
+          Ver atividades
         </Link>
       </div>
 
-      {/* Decorative Circles */}
-      <div className="absolute top-0 left-1/4 w-64 h-64 bg-pastel-violet/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
-      <div className="absolute top-0 right-1/4 w-64 h-64 bg-pastel-pink/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-2000"></div>
-      <div className="absolute -bottom-8 left-1/3 w-64 h-64 bg-pastel-blue/20 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob animation-delay-4000"></div>
+      {/* Decorative Blur Orbs para suavizar o fundo e deixa-lo vivo */}
+      <div className="absolute top-10 left-10 w-96 h-96 bg-[#f9a8d4]/30 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-blob"></div>
+      <div className="absolute top-20 right-20 w-96 h-96 bg-[#93c5fd]/30 rounded-full mix-blend-multiply filter blur-3xl opacity-60 animate-blob animation-delay-2000"></div>
     </section>
   );
 }

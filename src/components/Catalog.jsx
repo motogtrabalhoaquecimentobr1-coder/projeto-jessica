@@ -9,7 +9,6 @@ export default function Catalog() {
   const [activeCategory, setActiveCategory] = useState('Todas');
   const [isAnimating, setIsAnimating] = useState(false);
 
-  // Extract unique categories dynamically
   const categories = useMemo(() => {
     const allCategories = activities.map(a => a.category);
     return [...new Set(allCategories)].sort();
@@ -30,15 +29,23 @@ export default function Catalog() {
   };
 
   return (
-    <section id="atividades" className="py-20 bg-pastel-bg/50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl font-extrabold text-main-text sm:text-4xl">
-            Nosso <span className="text-pastel-pink">Catálogo</span>
+    <section id="atividades" className="py-20 bg-[#FAFAFA] relative border-t border-gray-100">
+      
+      {/* Marcador Direcional entre as seções identico a imagem */}
+      <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div className="w-16 h-16 bg-gray-500 rounded-full flex items-center justify-center text-white shadow-md border-[6px] border-white cursor-pointer hover:bg-gray-600 transition-colors">
+          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+          </svg>
+        </div>
+      </div>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
+        <div className="mb-12">
+          <h2 className="text-3xl font-extrabold text-[#3730A3] mb-2">
+            Catálogo de atividades
           </h2>
-          <p className="mt-4 text-xl text-main-sec max-w-2xl mx-auto">
-            Explore nossas atividades pedagógicas divididas por categorias e encontre o material ideal para sua turma.
-          </p>
+          <p className="text-gray-500 font-medium">Explore nossos conteúdos</p>
         </div>
 
         <FilterBar 
@@ -56,7 +63,7 @@ export default function Catalog() {
             </div>
           ) : (
             <div className="text-center py-20">
-              <p className="text-xl text-main-sec">Nenhuma atividade encontrada nesta categoria.</p>
+              <p className="text-xl text-gray-500">Nenhuma atividade encontrada nesta categoria.</p>
             </div>
           )}
         </div>
