@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="text-2xl font-bold text-main-text">
-              Professora <span className="text-pastel-pink">Nome</span>
+              Professora <span className="text-pastel-pink">Jéssica Belão</span>
             </Link>
           </div>
           <nav className="hidden md:flex space-x-8">
