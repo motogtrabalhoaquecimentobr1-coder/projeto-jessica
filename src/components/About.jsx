@@ -5,7 +5,7 @@ export default function About() {
         <div className="lg:grid lg:grid-cols-2 lg:gap-16 items-center flex flex-col-reverse">
           <div className="mt-10 lg:mt-0">
             <h2 className="text-3xl font-extrabold text-main-text tracking-tight sm:text-4xl mb-6">
-              Oi, sou a Professora <span className="text-pastel-pink">Nome</span>!
+              Oi, sou a Professora <span className="text-pastel-pink">Jéssica Belão</span>!
             </h2>
             <p className="text-lg text-main-sec mb-4">
               Sou apaixonada pela educação infantil e acredito que aprender deve ser uma experiência lúdica, colorida e muito divertida!
