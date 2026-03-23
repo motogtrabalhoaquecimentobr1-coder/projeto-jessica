@@ -9,7 +9,7 @@ export default function Footer() {
           
           <div className="flex justify-center md:justify-start">
             <Link href="/" className="text-2xl font-bold text-main-text">
-              Professora <span className="text-pastel-pink">Nome</span>
+              Professora <span className="text-pastel-pink">Jéssica Belão</span>
             </Link>
           </div>
 
@@ -42,7 +42,7 @@ export default function Footer() {
           
           <div className="mt-8 md:mt-0 md:order-1">
             <p className="text-center text-sm text-gray-400">
-              &copy; 2025 Professora Nome. Todos os direitos reservados.
+              &copy; 2025 Professora Jéssica Belão. Todos os direitos reservados.
             </p>
           </div>
         </div>
