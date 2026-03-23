@@ -7,7 +7,7 @@ import { WHATSAPP_NUMBER } from '@/config';
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col relative overflow-x-hidden pt-10">
+    <div className="min-h-screen flex flex-col relative overflow-x-hidden">
       <Header />
       <main className="flex-grow">
         <Hero />
