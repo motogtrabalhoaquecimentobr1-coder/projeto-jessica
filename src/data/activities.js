@@ -8,7 +8,7 @@ export const activities = [
       "/images/atividades/1-o-que-e-bullying/capa.jpg",
       "/images/atividades/1-o-que-e-bullying/pagina-1.jpg",
     ],
-    description: "Atividades de cobrir pontilhinhos para treinar a coordenação motora e aprender o alfabeto."
+    description: "O painel tem como objetivo educar e incentivar atitudes de respeito, empatia e convivência saudável, ajudando a combater o bullying desde cedo."
   },
   {
     id: 2,
