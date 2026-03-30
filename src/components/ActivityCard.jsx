@@ -118,9 +118,21 @@ export default function ActivityCard({ activity }) {
         <h3 className="text-lg font-bold text-[#3730A3] mb-2 group-hover:text-[#6366F1] transition-colors leading-snug">
           {activity.name}
         </h3>
-        <p className="text-gray-500 text-sm mb-5 line-clamp-2 flex-grow">
-          {activity.description}
-        </p>
+        {/* Descrição ou lista de detalhes */}
+        {activity.details && activity.details.length > 0 ? (
+          <ul className="mb-5 flex flex-col gap-1.5 flex-grow">
+            {activity.details.map((item, i) => (
+              <li key={i} className="flex items-start gap-2 text-sm text-gray-600">
+                <span className="mt-0.5 text-[#25D366] shrink-0">✓</span>
+                <span>{item}</span>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="text-gray-500 text-sm mb-5 line-clamp-3 flex-grow">
+            {activity.description}
+          </p>
+        )}
 
         <div className="flex items-center justify-between mt-auto gap-3">
           <div>
