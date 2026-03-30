@@ -8,7 +8,13 @@ export const activities = [
       "/images/atividades/1-o-que-e-bullying/capa.jpg",
       "/images/atividades/1-o-que-e-bullying/pagina-1.jpg",
     ],
-    description: "O painel tem como objetivo educar e incentivar atitudes de respeito, empatia e convivência saudável, ajudando a combater o bullying desde cedo."
+    description: "O painel tem como objetivo educar e incentivar atitudes de respeito, empatia e convivência saudável, ajudando a combater o bullying desde cedo.",
+    details: [
+    "26 fichas de pontilhado (A–Z)",
+    "Letra maiúscula e minúscula",
+    "Pronto para imprimir (PDF)",
+    "Gabarito incluso",
+    ],
   },
   {
     id: 2,
