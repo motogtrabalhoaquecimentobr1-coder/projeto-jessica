@@ -1,13 +1,12 @@
 export const activities = [
   {
     id: 1,
-    name: "Alfabeto Pontilhado",
-    category: "Português",
-    price: 12.90,
+    name: "O que é Bullying",
+    category: "Datas Comemorativas",
+    price: 7.00,
     images: [
-      "/images/atividades/1-alfabeto-pontilhado/capa.jpg",
-      "/images/atividades/1-alfabeto-pontilhado/pagina-1.jpg",
-      "/images/atividades/1-alfabeto-pontilhado/pagina-2.jpg",
+      "/images/atividades/1-o-que-e-bullying/capa.jpg",
+      "/images/atividades/1-o-que-e-bullying/pagina-1.jpg",
     ],
     description: "Atividades de cobrir pontilhinhos para treinar a coordenação motora e aprender o alfabeto."
   },
