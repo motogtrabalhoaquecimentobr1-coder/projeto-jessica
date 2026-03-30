@@ -10,10 +10,7 @@ export const activities = [
     ],
     description: "O painel tem como objetivo educar e incentivar atitudes de respeito, empatia e convivência saudável, ajudando a combater o bullying desde cedo.",
     details: [
-    "26 fichas de pontilhado (A–Z)",
-    "Letra maiúscula e minúscula",
-    "Pronto para imprimir (PDF)",
-    "Gabarito incluso",
+
     ],
   },
   {
