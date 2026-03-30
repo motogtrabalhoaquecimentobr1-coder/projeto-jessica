@@ -11,3 +11,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+/* Hide scrollbar for carousel while keeping scroll functionality */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
